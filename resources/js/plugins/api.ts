@@ -3,7 +3,7 @@ import { useAuthStore } from '../store/auth'
 import { useRouter } from 'vue-router'
 
 const api = axios.create({
-  baseURL: process.env.MIX_API_BASE_URL,
+  baseURL: import.meta.env.VITE_API_BASE_URL,
   withCredentials: true,
 })
 

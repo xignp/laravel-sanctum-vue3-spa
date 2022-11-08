@@ -9,10 +9,11 @@
 
 
 ## Features
-- Laravel8
+- Laravel9
 - Fortify
 - Sanctum
 - SPA Authentication
+- Vite
 - Vue3
 - Typescript
 - Vuetify3 beta
@@ -50,12 +51,9 @@ php artisan config:cache
 php artisan serve
 ```
 ```
-npm run watch
+npm run dev
 ```
 
-## Contributing
-
-Please fork and pull request to develop branch when you need new features or find bugs.
 
 ## License
 
